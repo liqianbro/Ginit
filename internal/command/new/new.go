@@ -1,14 +1,15 @@
 package new
 
 import (
-	"Ginit/config"
-	"Ginit/internal/pkg"
 	"bytes"
 	"fmt"
 	"log"
 	"os"
 	"os/exec"
 	"path/filepath"
+
+	"github.com/liqianbro/Ginit/config"
+	"github.com/liqianbro/Ginit/internal/pkg"
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/spf13/cobra"

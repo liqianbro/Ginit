@@ -1,9 +1,10 @@
 package ginit
 
 import (
-	"Ginit/config"
-	"Ginit/internal/command/new"
 	"fmt"
+
+	"github.com/liqianbro/Ginit/config"
+	"github.com/liqianbro/Ginit/internal/command/new"
 
 	"github.com/spf13/cobra"
 )

@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Ginit/cmd/ginit"
 	"fmt"
+
+	"github.com/liqianbro/Ginit/cmd/ginit"
 )
 
 func main() {
