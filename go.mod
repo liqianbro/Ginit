@@ -1,4 +1,4 @@
-module Ginit
+module github.com/liqianbro/Ginit
 
 go 1.23
 
