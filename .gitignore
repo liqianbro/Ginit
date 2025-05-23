@@ -1,0 +1,30 @@
+# Go build
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go modules
+go.sum
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories (remove the comment below if you use Go modules)
+vendor/ 
