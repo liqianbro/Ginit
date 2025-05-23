@@ -75,7 +75,6 @@ func run(cmd *cobra.Command, args []string) {
 	p.installWire()
 	fmt.Printf("🎉 Project \u001B[36m%s\u001B[0m created successfully!\n\n", p.ProjectName)
 	fmt.Printf("Done. Now run:\n\n")
-	fmt.Printf("› \033[36mcd %s \033[0m\n", p.ProjectName)
 }
 func (p *Project) cloneTemplate() (bool, error) {
 	stat, _ := os.Stat(p.ProjectName)
