@@ -20,7 +20,7 @@ Ginit 是一个强大的 Go 项目脚手架工具，用于快速创建和初始�
 确保你的系统已安装 Go 1.16 或更高版本，然后运行：
 
 ```bash
-go install github.com/liqianbro/ginit@latest
+go install github.com/liqianbro/Ginit@latest
 ```
 
 ## 使用方法
