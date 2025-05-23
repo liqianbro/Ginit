@@ -30,12 +30,6 @@ jobs:
           go test -v -race -coverprofile=coverage.txt -covermode=atomic ./...
           go tool cover -func=coverage.txt
 
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
-        with:
-          file: ./coverage.txt
-          fail_ci_if_error: true
-
       - name: Build
         run: go build -v ./...
 
